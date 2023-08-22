@@ -9236,9 +9236,3 @@ Output:JSON,
     No,                      !- Output CBOR
     No;                      !- Output MessagePack
 
-
-!-   ===========  ALL OBJECTS IN CLASS: OUTPUT:SQLITE ===========
-
-Output:SQLite,
-    SimpleAndTabular;        !- Option Type
-
