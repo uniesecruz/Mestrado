@@ -8335,6 +8335,11 @@ EnergyManagementSystem:TrendVariable,
     HistoricoCT,             !- EMS Variable Name
     500;                     !- Number of Timesteps to be Logged
 
+EnergyManagementSystem:TrendVariable,
+    TREND_CargaAntigaTrend,  !- Name
+    CargaAntigaTrend,        !- EMS Variable Name
+    60;                      !- Number of Timesteps to be Logged
+
 
 !-   ===========  ALL OBJECTS IN CLASS: AVAILABILITYMANAGER:SCHEDULED ===========
 
