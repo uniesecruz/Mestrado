@@ -9232,12 +9232,3 @@ Output:Meter:MeterFileOnly,
     Electricity:Facility,    !- Key Name
     Daily;                   !- Reporting Frequency
 
-
-!-   ===========  ALL OBJECTS IN CLASS: OUTPUT:JSON ===========
-
-Output:JSON,
-    TimeSeriesAndTabular,    !- Option Type
-    No,                      !- Output JSON
-    No,                      !- Output CBOR
-    No;                      !- Output MessagePack
-
