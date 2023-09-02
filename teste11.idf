@@ -9228,7 +9228,5 @@ Output:Meter:MeterFileOnly,
     Electricity:Facility,    !- Key Name
     Timestep;                !- Reporting Frequency
 
-Output:Meter:MeterFileOnly,
-    Electricity:Facility,    !- Key Name
-    Daily;                   !- Reporting Frequency
+
 
