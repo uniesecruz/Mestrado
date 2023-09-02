@@ -8238,6 +8238,11 @@ EnergyManagementSystem:Sensor,
     Fan_Coil Cooling Coil Chw Outlet,  !- Output:Variable or Output:Meter Index Key Name
     System Node Mass Flow Rate;  !- Output:Variable or Output:Meter Name
 
+EnergyManagementSystem:Sensor,
+    Se_TacChillerOut,        !- Name
+    CHILLER Cnd Outlet,      !- Output:Variable or Output:Meter Index Key Name
+    System Node Temperature; !- Output:Variable or Output:Meter Name
+
 
 !-   ===========  ALL OBJECTS IN CLASS: ENERGYMANAGEMENTSYSTEM:PROGRAMCALLINGMANAGER ===========
 
